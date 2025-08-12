@@ -1,0 +1,157 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Trebuchet, sans-serif;
+  background: #dbdde0;
+}
+
+/* ================= Header ================= */
+
+.header {
+  background-color: #ff6400;
+  padding: 38px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nome {
+  font-size: 24px;
+  color: #f5ebe1;
+}
+
+.header nav a {
+  margin-left: 33px;
+  text-decoration: none;
+  color: #f5ebe1;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  opacity: 0.8;
+}
+
+/* ================= Hero Section ================= */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh; /* tela inteira */
+  padding: 0 50px;
+  background-color: #fff;
+  position: relative;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.text-content h1 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 80px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.text-content p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.text-content button {
+  background-color: #c64510;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cadastro {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.cadastro:hover {
+  opacity: 0.8; 
+}
+
+/* ================= Imagem da Pessoa Feliz ================= */
+
+.imgora {
+  height: 672px;
+  width: 76vw;
+  position: fixed;
+  right: -508px;
+  top: 103px;
+  border-top-left-radius: 50% 100%;
+  border-bottom-left-radius: 50% 100%;
+  z-index: 0;
+}
+
+/* ================= itens ================= */
+.vantagens{
+  background-color: #c64510;
+  text-align: center;
+  
+}
+.vantagem{
+  color: #eee;
+  text-decoration: none;
+}
+
+
+/* Login Box (caso usado em outras páginas) */
+
+.login {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 20px;
+  width: 320px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  background-color: #dbdde0;
+}
+
+.usuario {
+  border-radius: 20px;
+  padding: 10px;
+  color: #000;
+}
+
+input {
+  border: 2px solid #291515;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.enviar {
+  margin-top: 10px;
+  color: black;
+  border-radius: 5px;
+  padding: 6px 14px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enviar:hover {
+  background-color: #eee;
+}
+
